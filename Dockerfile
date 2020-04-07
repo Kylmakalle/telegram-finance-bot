@@ -5,7 +5,7 @@ FROM python:3.7.7
 RUN mkdir -p /usr/src/bot
 # Setting workdir
 WORKDIR /usr/src/bot
-# Copying all directory data to vot folder
+# Copying all directory data to bot folder
 ADD . /usr/src/bot
 # Installing dependences 
 RUN pip install -r requirements.txt
